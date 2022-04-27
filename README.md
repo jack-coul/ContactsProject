@@ -10,5 +10,5 @@ $ npm install<br>
 $ npm run dev<br>
 
 # Данные для входа
-$ Login: Islam
-$ Password: islam
+## Login: Islam
+## Password: islam
