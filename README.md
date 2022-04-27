@@ -5,6 +5,6 @@ $ npm install<br>
 $ npm start<br>
 
 # Server:
-
+$ cd server<br>
 $ npm install<br>
-$ npm run server<br>
+$ npm run dev<br>
