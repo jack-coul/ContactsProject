@@ -127,6 +127,9 @@ const Contacts: React.FC = () => {
           >
             Изменить
           </button>
+          <span className="close" onClick={() => setEditContact(false)}>
+            закрыть
+          </span>
         </div>
       )}
     </div>

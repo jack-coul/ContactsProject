@@ -15,7 +15,7 @@ const Navbar: React.FC = () => {
     <nav>
       <div className="nav-wrapper teal darken-2 px1">
         <Link to="/" className="brand-logo">
-          React + Typescript
+          Test by Takeoff Staff
         </Link>
         <ul className="right hide-on-med-and-down">
           <li>

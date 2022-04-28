@@ -111,3 +111,8 @@ code {
   background-color: transparent;
   cursor: pointer;
 }
+.close {
+  margin-left: 5px;
+  color: rgb(98, 177, 255);
+  cursor: pointer;
+}
