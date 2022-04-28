@@ -15,7 +15,8 @@ import { API } from "../../api";
 import { IContacts } from "../../interfaces";
 
 export const getContacts =
-  () => async (dispatch: Dispatch<IGetcontacts | IAlertType>) => {
+  () =>
+  async (dispatch: Dispatch<IGetcontacts | IAlertType>,) => {
     try {
       dispatch({
         type: ALERT,

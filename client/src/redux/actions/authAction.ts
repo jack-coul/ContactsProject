@@ -14,7 +14,6 @@ export const login =
         },
       });
       const res = await API.post("login", data);
-      console.log(res.data.token);
       dispatch({ type: AUTH, payload: res.data.token });
       dispatch({
         type: ALERT,
