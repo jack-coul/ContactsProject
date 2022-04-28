@@ -12,7 +12,7 @@ app.use(cors());
 app.use(importRoute);
 
 const port = 4000;
-const url = "mongodb+srv://jackcoul:1558@cluster0.rbezt.mongodb.net/contacts";
+const url = process.env.MONGO_URL;
 
 mongoose.connect(url).then(() => {
   console.log("Соединение с монго установлено");
